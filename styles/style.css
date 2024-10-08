@@ -1,1 +1,51 @@
+/*
+* --------------------------------------------
+* Custom styles to override the default Bootstrap ones * -------------------------------------------- */
+/* New Color Palette:
+* White (Text): #ffffff      (text, contrast with dark)
+* Persian Blue (Primary): #2541B2 
+* Aero (Secondary): #06BEE1       (canvas background)
+* Green Blue (Accent): #1768ac
+*/
 
+.bg-info {
+    background-color: #06bee1 !important;
+    /* Light green for secondary backgrounds */
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: #2541b2;
+    /* Dark green for brand name & nav links for visibility */
+}
+
+.btn-info {
+    color: #ffffff;
+    /* Lightest shade for text on info button for contrast */
+    background-color: #06bee1;
+    /* Light green for button background */
+    border-color: #2541b2;
+    /* Dark green for button border */
+}
+
+.btn-primary {
+    color: #ffffff;
+    /* Lightest shade for text */
+    font-size: 150%;
+    background-color: #2541b2;
+    /* Dark green for primary button background */
+    border-color: #1768ac;
+    /* Reddish-brown for border to use as accent */
+    border-width: thick;
+}
+
+body {
+    background-color: #ffffff;
+    /* Lightest shade for body background to follow the 60% rule */
+}
+
+.navbar-brand {
+    font-family: 'Caveat', cursive;
+    /*change the font name for what you have*/
+    font-size: 2.25rem;
+}
